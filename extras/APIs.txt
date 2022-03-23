@@ -1,0 +1,2 @@
+stripe.com - payments
+sendgrid.com - emails
