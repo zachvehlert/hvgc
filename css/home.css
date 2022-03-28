@@ -1,0 +1,84 @@
+.title-paint {
+    font-family: 'Finger Paint', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff7e3;
+}
+
+#page-container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 6em;
+    margin-top: 0;
+}
+
+#product-display-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgb(189, 189, 189);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    max-width: 70vw;
+    background-color: #f7ebcd;
+}
+
+#product-display-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pd-descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.arrow {
+    height: 50px;
+    width: 30px;
+    background-color: blue;
+    margin: 50px
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#co-descript-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: 100px;
+    box-shadow: 10px 10px 20px rgb(189, 189, 189);
+    border-radius: 10px;
+    background-color: #f7ebcd;
+}
+
+#content-image {
+    padding: 25px;
+}
+
+#content-descript {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 25px;
+}
