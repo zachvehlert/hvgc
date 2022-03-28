@@ -1,0 +1,113 @@
+/* style for hompage titles */
+
+.title-paint {
+    font-family: 'Finger Paint', cursive;
+}
+
+h1 {
+    font-size: 6em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 1.5em;
+}
+
+/* default font */
+
+html {
+    font-family: 'Finger Paint', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar styles */
+
+#nav-bar {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#nav-bar p {
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-hr {
+    width: 45%;
+    margin: 0;
+}
+
+/* styles for whole page container */
+
+#page-container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* styles for homepage product display */
+
+.arrow {
+    margin: 20px;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+#product-display-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    max-width: 55vw;
+    box-shadow: 5px 5px 20px rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+#product-display-content {
+    display: grid;
+}
+
+#product-display-content .one {
+    grid-column: 1 / 4;
+    padding: 30px;
+}
+
+#product-display-content .one img{
+    max-width: 100%;
+}
+
+#product-display-content .two {
+    grid-column: 4;
+    padding: 30px;
+    text-align: left;
+}
+
+/* styles for homepage company description */
+
+#co-descript-home {
+    display: grid;
+    text-align: left;
+    max-width: 60vw;
+    box-shadow: 5px 5px 20px rgb(218, 218, 218);
+    border-radius: 5px;
+    margin-bottom: 3em;
+}
+
+#co-descript-home .one {
+    grid-column: 1;
+    padding: 30px;
+}
+
+#co-descript-home .two img{
+    max-width: 100%;
+}
+
+#co-descript-home .two {
+    grid-column: 2;
+    padding: 30px;
+}
